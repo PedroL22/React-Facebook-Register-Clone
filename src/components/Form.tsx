@@ -1,7 +1,7 @@
 export default function Form() {
 	return (
 		<div>
-			<div className="sm:shadow-lg bg-white rounded-lg sm:max-w-sm py-4 px-4">
+			<div className="sm:shadow-xl bg-white rounded-lg sm:max-w-sm py-4 px-4">
 				<form>
 					<input
 						type="text"
