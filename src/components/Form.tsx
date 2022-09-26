@@ -28,6 +28,12 @@ export default function Form() {
 					Create new account
 				</button>
 			</div>
+			<p className="text-center">
+				<span className="font-medium hover:underline cursor-pointer">
+					Create a Page
+				</span>{" "}
+				for a celebrity, brand or business.
+			</p>
 		</div>
 	);
 }
