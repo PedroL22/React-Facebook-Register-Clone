@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
@@ -8,9 +8,9 @@ module.exports = {
         primaryhover: '#1670e7',
         secondary: '#42b72a',
         secondaryhover: '#37a621',
-        bgcolor: '#f0f2f5'
-      }
+        bgcolor: '#f0f2f5',
+      },
     },
-    plugins: []
-  }
+  },
+  plugins: [],
 }
